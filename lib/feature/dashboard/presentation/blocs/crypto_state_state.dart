@@ -14,8 +14,31 @@ class CryptoStateLoading extends CryptoStateState {
   List<Object> get props => [];
 }
 
+class GroupsStateLoading extends CryptoStateState {
+  @override
+  List<Object> get props => [];
+}
+
+class GroupsStateLoaded extends CryptoStateState {
+  final groupsList;
+
+  const GroupsStateLoaded({required this.groupsList});
+
+  @override
+  List<Object> get props => [groupsList];
+}
+
+class GroupsStateError extends CryptoStateState {
+  final String message;
+
+  const GroupsStateError({required this.message});
+
+  @override
+  List<Object> get props => [message];
+}
+
 class CryptoStateLoaded extends CryptoStateState {
-  final List<Crypto> cryptoList;
+  final  cryptoList;
 
   const CryptoStateLoaded({required this.cryptoList});
 

@@ -6,14 +6,12 @@ class CryptoResponse extends Crypto {
     required String name,
     required String price,
     required String imagePath,
-    required String curvePath,
     required String percentage,
     required bool isRise,
   }) : super(
           name: name,
           price: price,
           imagePath: imagePath,
-          curvePath: curvePath,
           percentage: percentage,
           isRise: isRise,
         );
@@ -22,8 +20,7 @@ class CryptoResponse extends Crypto {
     return CryptoResponse(
       name: json['name'],
       price: json['price'],
-      imagePath: json['imagePath'],
-      curvePath: json['curvePath'],
+      imagePath: json['image'],
       percentage: json['percentage'],
       isRise: json['isRise'],
     );
