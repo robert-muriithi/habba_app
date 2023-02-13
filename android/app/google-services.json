@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452087933226",
+    "project_id": "flutter-test-9a97a",
+    "storage_bucket": "flutter-test-9a97a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452087933226:android:500439f3f8bdd5b36ed653",
+        "android_client_info": {
+          "package_name": "com.example.adamur_flutter_engineer_test_habba_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452087933226-obpc0n4iictbr5f48a58vkrnhgraqrh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyaoVf7JxShOkbM8O9Pgdq2VTDm019D3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452087933226-obpc0n4iictbr5f48a58vkrnhgraqrh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
